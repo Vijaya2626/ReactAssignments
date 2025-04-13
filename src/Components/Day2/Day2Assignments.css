@@ -1,0 +1,45 @@
+.assignment-box {
+    width: 30%; 
+    height: auto; 
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    min-height: 250px; 
+  }
+  
+  .bg-light-blue {
+    background-color: #d1e7fd; 
+  }
+  
+  .bg-light-yellow {
+    background-color: #fff3cd; 
+  }
+  
+  .bg-light-green {
+    background-color: #c3e6cb;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #444e85; 
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .assignment-box {
+      width: 100%; 
+      margin-bottom: 1rem;
+    }
+  }
+  

@@ -1,0 +1,60 @@
+
+body {
+  margin: 0;
+  background-color: #cbf1f6; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+
+  background-color: #17787b; 
+  padding: 15px 20px;
+  color: rgb(162, 235, 173);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: hsl(0, 0%, 6%) !important;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.main-content {
+  background-color: #a1e3f5;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.welcome-title {
+  color: #021526;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.day-buttons .day-btn {
+  background-color: #0a4b5c;
+  color: #a3a8a3;
+  border: 2px solid #7d787d;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.day-buttons .day-btn:hover {
+  background-color: #b1b3d3;
+  color: rgb(26, 25, 25);
+  transform: scale(1.05);
+}
